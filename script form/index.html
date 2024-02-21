@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive survey Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+  <h1>Interactive Web Page</h1>
+  <form id="myForm">
+    <label for="name" accessNumber="1">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="email" accessNumber="2">Email:</label>
+    <input type="email" id="email" name="email" required>
+    <br>
+    <label for="phone" accessNumber="3">Phone:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <br>
+    <label for="age" accessNumber="4">Age:</label>
+    <input type="number" id="age" name="age" min="1" max="100" required>
+    <br>
+    <label for="color" accessNumber="5">Favorite Color:</label>
+    <input type="color" id="color" name="color" required>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+  <p id="message"></p>
+</body>
+<footer>&copy;2024 copyright mojo collection</footer>
+</html>

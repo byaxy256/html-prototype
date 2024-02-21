@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-image: url("john-towner-CakC6u4d95g-unsplash.jpg");
+    color: #222020;
+    margin-top: 300px;
+    text-align: center;
+  }
+  header {
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  nav {
+    text-align: center;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    margin: 0 20px;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  section {
+    flex-basis: calc(33.333% - 20px);
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  footer {
+    background-color: #030202;
+    padding: 10px;
+    text-align: center;
+    color: azure;
+  }
+  
