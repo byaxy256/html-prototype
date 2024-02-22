@@ -24,12 +24,6 @@ body {
     justify-content: space-between;
     margin: 20px;
   }
-  section {
-    flex-basis: calc(33.333% - 20px);
-    margin-bottom: 20px;
-    background-color: #f4f4f4;
-    padding: 20px;
-  }
   footer {
     background-color: #030202;
     padding: 10px;
